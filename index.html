@@ -25,17 +25,19 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header__block container">
+    <header class="page-header">
+      <div class="page-header__item container">
         <!-- logo -->
-        <a href="index.html" class="header__logo link"
-          ><span class="header__logo-blue">Web</span
-          ><span class="header__logo-black">Studio</span></a
-        >
+        <div>
+          <a href="index.html" class="logo__link link"
+            ><span class="logo logo--color-blue">Web</span
+            ><span>Studio</span></a
+          >
+        </div>
 
         <!-- nav -->
-        <nav class="nav-container">
-          <ul class="nav list margin-padding">
+        <nav class="nav">
+          <ul class="nav__item list margin-padding">
             <li class="nav__list">
               <a
                 href="index.html"
@@ -81,7 +83,7 @@
     <main>
       <!-- Hero -->
       <section class="hero">
-        <div class="hero__container container">
+        <div class="hero__item container">
           <h1 class="hero__title margin-padding">
             Эффективные решения для вашего бизнеса
           </h1>
@@ -94,9 +96,9 @@
       <!-- Details -->
       <section class="section">
         <div class="container">
-          <ul class="specifics__box list margin-padding">
+          <ul class="specifics list margin-padding">
             <li class="specifics__list">
-              <div class="specifics-box">
+              <div class="specifics__item">
                 <svg class="specifics__icon" width="70" height="70">
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
@@ -110,7 +112,7 @@
               </p>
             </li>
             <li class="specifics__list">
-              <div class="specifics-box">
+              <div class="specifics__item">
                 <svg class="specifics__icon" width="70" height="70">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
@@ -122,7 +124,7 @@
               </p>
             </li>
             <li class="specifics__list">
-              <div class="specifics-box">
+              <div class="specifics__item">
                 <svg class="specifics__icon" width="70" height="70">
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
@@ -134,7 +136,7 @@
               </p>
             </li>
             <li class="specifics__list">
-              <div class="specifics-box">
+              <div class="specifics__item">
                 <svg class="specifics__icon" width="70" height="70">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
@@ -155,9 +157,9 @@
       <section class="our-work">
         <div class="container">
           <h2 class="our-work__title margin-padding">Чем мы занимаемся</h2>
-          <ul class="our-work__box list margin-padding">
+          <ul class="our-work__item list margin-padding">
             <li class="our-work__list">
-              <div class="our-work__imagines">
+              <div class="our-work__images">
                 <img
                   src="images/img-1.jpg"
                   alt="Руки набирают код"
@@ -169,7 +171,7 @@
               </div>
             </li>
             <li class="our-work__list">
-              <div class="our-work__imagines">
+              <div class="our-work__images">
                 <img
                   src="images/img-2.jpg"
                   alt="Держит в руке телефон и работает за ноутбуком"
@@ -181,7 +183,7 @@
               </div>
             </li>
             <li class="our-work__list">
-              <div class="our-work__imagines">
+              <div class="our-work__images">
                 <img
                   src="images/img-3.jpg"
                   alt="Выберает на планшете цветовую палитру"
@@ -200,39 +202,39 @@
       <section class="our-team section">
         <div class="container">
           <h2 class="our-team__title margin-padding">Наша команда</h2>
-          <ul class="our-team__box list margin-padding">
+          <ul class="our-team__item list margin-padding">
             <li class="our-team__list">
               <img src="images/igor.jpg" alt="Игорь Демьяненко" width="270" />
               <div class="our-team__description">
                 <h3 class="our-team__name margin-padding">Игорь Демьяненко</h3>
                 <p class="our-team__text margin-padding">Product Designer</p>
-                <div class="our-team__box-icons">
+                <div class="social">
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.instagram.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#instagram"></use>
                     </svg>
                   </a>
-                  <a class="our-team__link outline" href="https://twitter.com/">
-                    <svg class="our-team__icon" width="20" height="20">
+                  <a class="social__link outline" href="https://twitter.com/">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#twitter"></use>
                     </svg>
                   </a>
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.facebook.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#facebook"></use>
                     </svg>
                   </a>
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.linkedin.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#linkedin"></use>
                     </svg>
                   </a>
@@ -244,33 +246,33 @@
               <div class="our-team__description">
                 <h3 class="our-team__name margin-padding">Ольга Репина</h3>
                 <p class="our-team__text margin-padding">Frontend Developer</p>
-                <div class="our-team__box-icons">
+                <div class="social">
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.instagram.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#instagram"></use>
                     </svg>
                   </a>
-                  <a class="our-team__link outline" href="https://twitter.com/">
-                    <svg class="our-team__icon" width="20" height="20">
+                  <a class="social__link outline" href="https://twitter.com/">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#twitter"></use>
                     </svg>
                   </a>
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.facebook.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#facebook"></use>
                     </svg>
                   </a>
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.linkedin.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#linkedin"></use>
                     </svg>
                   </a>
@@ -282,33 +284,33 @@
               <div class="our-team__description">
                 <h3 class="our-team__name margin-padding">Николай Тарасов</h3>
                 <p class="our-team__text margin-padding">Marketing</p>
-                <div class="our-team__box-icons">
+                <div class="social">
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.instagram.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#instagram"></use>
                     </svg>
                   </a>
-                  <a class="our-team__link outline" href="https://twitter.com/">
-                    <svg class="our-team__icon" width="20" height="20">
+                  <a class="social__link outline" href="https://twitter.com/">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#twitter"></use>
                     </svg>
                   </a>
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.facebook.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#facebook"></use>
                     </svg>
                   </a>
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.linkedin.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#linkedin"></use>
                     </svg>
                   </a>
@@ -320,33 +322,33 @@
               <div class="our-team__description">
                 <h3 class="our-team__name margin-padding">Михаил Ермаков</h3>
                 <p class="our-team__text margin-padding">UI Designer</p>
-                <div class="our-team__box-icons">
+                <div class="social">
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.instagram.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#instagram"></use>
                     </svg>
                   </a>
-                  <a class="our-team__link outline" href="https://twitter.com/">
-                    <svg class="our-team__icon" width="20" height="20">
+                  <a class="social__link outline" href="https://twitter.com/">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#twitter"></use>
                     </svg>
                   </a>
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.facebook.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#facebook"></use>
                     </svg>
                   </a>
                   <a
-                    class="our-team__link outline"
+                    class="social__link outline"
                     href="https://www.linkedin.com/"
                   >
-                    <svg class="our-team__icon" width="20" height="20">
+                    <svg class="social__icon" width="20" height="20">
                       <use href="./images/icons.svg#linkedin"></use>
                     </svg>
                   </a>
@@ -362,7 +364,7 @@
           <h2 class="regular-customers__title margin-padding">
             Постоянные клиенты
           </h2>
-          <ul class="regular-customers__box list margin-padding">
+          <ul class="regular-customers__item list margin-padding">
             <li class="regular-customers__list">
               <a href="/" class="regular-customers__link outline">
                 <svg class="regular-customers__icon" width="41" height="46.7">
@@ -426,24 +428,28 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="footer__container container">
+    <footer class="page-footer">
+      <div class="page-footer__item container">
         <div>
-          <a href="index.html" class="footer__logo link"
-            ><span class="footer__logo-blue">Web</span><span>Studio</span></a
-          >
-          <address class="footer__address">
+          <div>
+            <a href="index.html" class="page-footer__logo link"
+              ><span class="logo logo__text--blue">Web</span
+              ><span>Studio</span></a
+            >
+          </div>
+
+          <address class="page-footer__address">
             г. Киев, пр-т Леси Украинки, 26
           </address>
           <address>
-            <ul class="footer__box list margin-padding">
-              <li class="footer__list">
-                <a href="mailto:info@example.com" class="footer__link link"
+            <ul class="list margin-padding">
+              <li class="page-footer__list">
+                <a href="mailto:info@example.com" class="page-footer__link link"
                   >info@example.com</a
                 >
               </li>
-              <li class="footer__list">
-                <a href="tel:+380991111111" class="footer__link link"
+              <li class="page-footer__list">
+                <a href="tel:+380991111111" class="page-footer__link link"
                   >+38 099 111 11 11</a
                 >
               </li>
@@ -453,7 +459,7 @@
         <div class="join">
           <h3 class="join__title margin-padding">присоединяйтесь</h3>
 
-          <div class="join__box">
+          <div>
             <a class="join__link outline" href="https://www.instagram.com/">
               <svg class="join__icon" width="20" height="20">
                 <use href="./images/icons.svg#instagram"></use>
@@ -496,18 +502,17 @@
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="modal__box" data-modal-close>
-          <svg class="modal__icon" width="11" height="11">
+      <div class="backdrop__item">
+        <button type="button" class="backdrop__btn" data-modal-close>
+          <svg class="backdrop__icon" width="11" height="11">
             <use href="./images/icons.svg#mark"></use>
           </svg>
         </button>
-
-        <form class="form" autocomplete="off">
-          <h2 class="form__title margin-padding">
-            Оставьте свои данные, мы вам перезвоним
-          </h2>
-          <div class="form__box">
+        <h2 class="form__title margin-padding">
+          Оставьте свои данные, мы вам перезвоним
+        </h2>
+        <form autocomplete="off">
+          <div class="form__item form__item--position">
             <label class="form__label margin-padding" for="name">Имя</label>
             <input
               class="form__input"
@@ -522,7 +527,7 @@
             </svg>
           </div>
 
-          <div class="form__box">
+          <div class="form__item form__item--position">
             <label class="form__label margin-padding" for="tel">Телефон</label>
             <input
               class="form__input"
@@ -537,7 +542,7 @@
             </svg>
           </div>
 
-          <div class="form__box">
+          <div class="form__item form__item--position">
             <label class="form__label margin-padding" for="email">Почта</label>
             <input
               class="form__input"
@@ -552,7 +557,7 @@
             </svg>
           </div>
 
-          <div class="form__textarea-box">
+          <div class="form__item">
             <label class="form__label">Комментарий</label>
             <textarea
               class="form__textarea"
@@ -561,26 +566,30 @@
             ></textarea>
           </div>
 
-          <div class="check__box">
-            <label class="check__label" for="checkbox">
+          <div class="check-box">
+            <label class="check-box__label" for="checkbox">
               <input
-                class="check__input"
+                class="check-box__input"
                 type="checkbox"
                 value=""
                 id="checkbox"
                 name="user_checkbox"
                 placeholder=" "
               />
-              <svg class="check__icon margin-padding" width="16" height="15">
+              <svg
+                class="check-box__icon margin-padding"
+                width="16"
+                height="15"
+              >
                 <use href="./images/icons.svg#check"></use>
               </svg>
               Соглашаюсь с рассылкой и принимаю
-              <a href="/" class="check__link">Условия договора</a></label
+              <a href="/" class="check-box__link">Условия договора</a></label
             >
           </div>
 
-          <div class="form__box-btn">
-            <button class="form__button margin-padding" type="submit">
+          <div class="submit">
+            <button class="submit__button margin-padding" type="submit">
               Отправить
             </button>
           </div>

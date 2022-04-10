@@ -23,17 +23,17 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header" >
-      <div class="header__block container">
+    <page-header class="page-header" >
+      <div class="page-header__item container">
         <!-- logo -->
-        <a href="index.html" class="header__logo link"
-          ><span class="header__logo-blue">Web</span
-          ><span class="header__logo-black">Studio</span></a
+        <a href="index.html" class="logo__link link"
+          ><span class="logo logo--color-blue">Web</span
+          ><span>Studio</span></a
         >
 
         <!-- nav -->
-        <nav class="nav-container">
-          <ul class="nav list list margin-padding">
+        <nav class="nav">
+          <ul class="nav__item list list margin-padding">
             <li class="nav__list">
               <a href="index.html" class="nav__link link outline">Студия</a>
             </li>
@@ -66,7 +66,7 @@
           </li>
         </ul>
       </div>
-    </header>
+    </page-header>
 
     <main>
       <section class="section">
@@ -97,7 +97,7 @@
       <div class="container">
             <ul class="portfolio list margin-padding">
             <li class="portfolio__list">
-              <div class="portfolio__box">
+              <div class="portfolio__item">
                 <img
                 src="images/portfolio-1.jpg"
                 alt="Фото-картки на ноутбуке"
@@ -202,35 +202,39 @@
    </section>
     </main>
 
-    <footer class="footer">
-      <div class="footer__container container">
+   <footer class="page-footer">
+      <div class="page-footer__item container">
         <div>
-          <a href="index.html" class="footer__logo link"
-            ><span class="footer__logo-blue">Web</span><span>Studio</span></a
-          >
-          <address class="footer__address">
+          <div>
+            <a href="index.html" class="page-footer__logo link"
+              ><span class="logo logo__text--blue">Web</span
+              ><span>Studio</span></a
+            >
+          </div>
+
+          <address class="page-footer__address">
             г. Киев, пр-т Леси Украинки, 26
           </address>
           <address>
-            <ul class="footer__box list margin-padding">
-              <li class="footer__list">
-                <a href="mailto:info@example.com" class="footer__link link"
+            <ul class="list margin-padding">
+              <li class="page-footer__list">
+                <a href="mailto:info@example.com" class="page-footer__link link"
                   >info@example.com</a
                 >
               </li>
-              <li class="footer__list">
-                <a href="tel:+380991111111" class="footer__link link"
+              <li class="page-footer__list">
+                <a href="tel:+380991111111" class="page-footer__link link"
                   >+38 099 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-          <div class="join">
-            <h3 class="join__title margin-padding">присоединяйтесь</h3>
-           
-            <div class="join__box">
-              <a class="join__link outline" href="https://www.instagram.com/">
+        <div class="join">
+          <h3 class="join__title margin-padding">присоединяйтесь</h3>
+
+          <div>
+            <a class="join__link outline" href="https://www.instagram.com/">
               <svg class="join__icon" width="20" height="20">
                 <use href="./images/icons.svg#instagram"></use>
               </svg>
@@ -250,9 +254,23 @@
                 <use href="./images/icons.svg#linkedin"></use>
               </svg>
             </a>
-            </div>
           </div>
-          
+        </div>
+
+        <div class="send">
+          <h2 class="send__title margin-padding">Подпишитесь на рассылку</h2>
+          <div class="send__item">
+            <input
+              class="send__input"
+              type="text"
+              name=""
+              placeholder="E-mail"
+            />
+            <button class="send__button" type="submit">Подписаться</button>
+            <svg class="send__icon" width="24" height="24">
+              <use href="./images/icons.svg#send"></use>
+            </svg>
+          </div>
         </div>
       </div>
     </footer>
