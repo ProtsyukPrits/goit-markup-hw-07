@@ -37,6 +37,7 @@ body {
   margin: 0;
 }
 
+/* -------________---------- */
 .specifics__text,
 .our-team__text {
   margin-top: 10px;
@@ -87,7 +88,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 
   color: #000000;
 }
@@ -154,7 +155,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -195,7 +196,7 @@ img {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -209,7 +210,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 1.87;
 
   color: #ffffff;
   background: #2196f3;
@@ -230,7 +231,7 @@ img {
 .specifics__title {
   font-style: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -240,7 +241,7 @@ img {
 .specifics__text {
   font-style: normal;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -270,7 +271,7 @@ img {
 .our-work__title {
   font-style: normal;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 
   text-align: center;
@@ -295,7 +296,7 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -311,7 +312,7 @@ img {
 .our-team__title {
   font-style: normal;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 
   text-align: center;
@@ -341,7 +342,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: #212121;
@@ -350,7 +351,7 @@ img {
 .our-team__text {
   font-style: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -393,7 +394,7 @@ img {
   font-family: Roboto;
   font-style: normal;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -444,7 +445,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 
   color: #ffffff;
@@ -459,7 +460,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: #ffffff;
@@ -473,7 +474,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
 
   letter-spacing: 0.03em;
 
@@ -497,7 +498,7 @@ img {
   font-family: Roboto;
   font-style: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -540,7 +541,7 @@ img {
 
   font-style: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -624,7 +625,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   letter-spacing: 0.03em;
 
   color: #212121;
@@ -690,9 +691,9 @@ img {
   padding: 63px 24px;
 
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 18px;
-  line-height: 156%;
+  line-height: 1.56;
   letter-spacing: 0.03em;
 
   color: #ffffff;
@@ -715,7 +716,7 @@ img {
 .portfolio__title {
   font-style: normal;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.06em;
 
   color: #212121;
@@ -726,7 +727,7 @@ img {
 
   font-style: normal;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -796,9 +797,7 @@ img {
   fill: currentColor;
 }
 
-/* ----------------Form------------------- */
-
-.form__title {
+.backdrop_title {
   margin-bottom: 12px;
 
   font-style: normal;
@@ -809,6 +808,8 @@ img {
 
   color: #212121;
 }
+
+/* ----------------Form------------------- */
 
 .form__item {
   display: flex;
