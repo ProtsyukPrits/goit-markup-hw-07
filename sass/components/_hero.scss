@@ -19,7 +19,6 @@
   }
 
   &__title {
-    @include margin-padding;
     margin: auto;
     width: 696px;
 
@@ -35,7 +34,6 @@
   }
 
   &__button {
-    @include outline;
     padding: 10px 32px;
     margin-top: 30px;
 

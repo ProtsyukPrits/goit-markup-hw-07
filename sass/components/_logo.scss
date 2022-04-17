@@ -2,7 +2,6 @@
 
 .logo {
   &__link {
-    @include link;
     font-family: $secondary-font-family;
     font-style: normal;
     font-weight: $bold;

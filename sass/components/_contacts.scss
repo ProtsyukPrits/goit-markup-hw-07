@@ -1,8 +1,6 @@
 /** @format */
 
 .contacts {
-  @include list;
-  @include margin-padding;
   display: flex;
   margin-left: auto;
 
@@ -13,8 +11,6 @@
 }
 
 .contacts__link {
-  @include link;
-  @include outline;
   display: inline-flex;
   align-items: center;
 

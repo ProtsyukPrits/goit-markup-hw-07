@@ -4,7 +4,6 @@
   background: $white-hard;
 
   &__title {
-    @include margin-padding;
     font-style: normal;
     font-size: 36px;
     line-height: 1.16;
@@ -15,8 +14,6 @@
   }
 
   &__item {
-    @include list;
-    @include margin-padding;
     display: flex;
   }
 
@@ -35,7 +32,6 @@
   }
 
   &__name {
-    @include margin-padding;
     font-style: normal;
     font-weight: $medium;
     font-size: 16px;
@@ -46,7 +42,6 @@
   }
 
   &__text {
-    @include margin-padding;
     font-style: normal;
     font-size: 16px;
     line-height: 1.18;

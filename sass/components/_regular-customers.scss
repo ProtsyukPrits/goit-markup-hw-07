@@ -33,12 +33,12 @@
   border: solid 1px $grey-medium;
   border-radius: 4px;
 
-  transition: color 250ms $animation, border 250ms $animation;
+  transition: color $animation, border $animation;
 
   &:hover,
   &:focus {
     color: $blue-light;
     border: solid 1px $blue-light;
-    transition: color 250ms $animation, border 250ms $animation;
+    transition: color $animation, border $animation;
   }
 }

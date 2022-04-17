@@ -4,8 +4,6 @@
   margin-left: 93px;
 
   &__item {
-    @include list;
-    @include margin-padding;
     display: flex;
   }
 
@@ -15,9 +13,6 @@
 }
 
 .nav__link {
-  @include link;
-  @include outline;
-
   display: block;
   padding: 32px 0;
   font-style: normal;
