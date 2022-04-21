@@ -362,10 +362,6 @@ summary {
   color: #2196f3;
 }
 
-.logo__text--blue {
-  color: #2196f3;
-}
-
 .page-footer__logo {
   font-family: "Railway";
   font-style: normal;
@@ -707,7 +703,7 @@ summary {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(117, 117, 117, 0.5);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .page-footer__item {
@@ -965,7 +961,7 @@ summary {
 }
 
 .form__textarea::placeholder {
-  color: rgba(117, 117, 117, 0.5);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /** @format */
@@ -1152,7 +1148,7 @@ summary {
   margin-right: 30px;
 }
 
-.portfolio__listt:nth-child(-n + 6) {
+.portfolio__list:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
 
