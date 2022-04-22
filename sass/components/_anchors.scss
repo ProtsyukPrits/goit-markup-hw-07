@@ -28,7 +28,6 @@
   &:focus {
     color: $white;
     background-color: $blue-light;
-    transition: color $animation, background-color $animation;
 
     box-shadow: 0px 3px 1px $shadow4, 0px 1px 2px $shadow5, 0px 2px 2px $shadow1;
     border-radius: 4px;

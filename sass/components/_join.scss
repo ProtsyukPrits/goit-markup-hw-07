@@ -21,10 +21,15 @@
   &__icon {
     fill: currentColor;
   }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .join__link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 
@@ -39,6 +44,5 @@
   &:hover,
   &:focus {
     background-color: $blue-light;
-    transition: background-color $animation;
   }
 }

@@ -6,10 +6,15 @@
   &__icon {
     fill: currentColor;
   }
+
+  .social__item {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .social__link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 
@@ -26,6 +31,5 @@
   &:focus {
     color: $white;
     background-color: $blue-light;
-    transition: color $animation, background-color $animation;
   }
 }
